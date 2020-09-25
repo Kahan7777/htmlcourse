@@ -1,0 +1,29 @@
+:root {
+    background-color: rgb(87, 87, 87);
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-tabs{
+    display: flex;
+    flex: 4;
+    justify-content: space-around;
+}
+.logo-text{
+    flex: 1
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.logo-text:hover, 
+.nav-tabs:hover {
+    color: rgb(255, 255, 255);
+}
